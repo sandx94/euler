@@ -27,7 +27,7 @@ def main(limit):
           
 #---------------------------
 
-def is_prime(num, ls_prime):
+def is_prime(num, ls_prime):  #-- Methodto check ifprime or not
     
     str_num = str(num)
     if str_num[-1] in ('5'):
